@@ -1,4 +1,6 @@
-# GitHub Actions Fundamentals
+# GitHub Actions Fundamentals 
+
+## update two
 
 Repo for the `GitHub Actions Fundamentals` training.
 
