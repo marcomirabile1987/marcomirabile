@@ -25,7 +25,7 @@ jobs:
         run: echo "Hello ${{ inputs.who-to-greet }}"
 
       - name: Get current time
-        id: time
+        id: timeMM1
         run: echo "::set-output name=current-time::$(date)"
 
       - name: Set time
