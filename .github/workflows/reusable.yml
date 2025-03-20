@@ -27,3 +27,8 @@ jobs:
       - name: Get current time
         id: time
         run: echo "::set-output name=current-time::$(date)"
+
+      - name: Set time
+        id: time
+        run: echo "time=$(date)" >> $GITHUB_OUTPUT
+        
