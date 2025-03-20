@@ -1,5 +1,7 @@
 name: 'Hello World Docker Action'
+
 description: 'Greet someone and tell the time'
+
 inputs:
   who-to-greet:
     description: 'The name of the person to greet'
